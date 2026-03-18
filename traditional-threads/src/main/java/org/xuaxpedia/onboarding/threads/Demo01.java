@@ -1,7 +1,8 @@
 package org.xuaxpedia.onboarding.threads;
 
 public class Demo01 {
-  /* Threads in Java can be created by implementing the Runnable interface or by extending the Thread class.
+  /**
+   * Threads in Java can be created by implementing the Runnable interface or by extending the Thread class.
    * The Runnable interface is a functional interface that has a single method, run(),
    * which contains the code that will be executed by the thread.
    * To create a thread using the Runnable interface, you can create a class that implements the Runnable interface

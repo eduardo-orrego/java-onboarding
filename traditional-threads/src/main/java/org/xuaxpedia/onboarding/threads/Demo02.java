@@ -4,7 +4,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Demo02 {
-  /* The ExecutorService is a higher-level API for managing threads in Java.
+  /**
+   * The ExecutorService is a higher-level API for managing threads in Java.
    * It provides a way to create and manage a pool of threads, and to submit tasks for execution.
    * The ExecutorService interface provides several methods for submitting tasks, including execute() and submit().
    * The execute() method is used to submit a Runnable task for execution, while the submit() method is used to submit
