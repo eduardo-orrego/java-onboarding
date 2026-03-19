@@ -39,11 +39,11 @@ public class Demo01 {
     Thread thread_3 = Thread.ofVirtual()
       .name("thread-manual")
       .unstarted(() -> System.out.println(Thread.currentThread().getName()));
+    thread_3.start();
 
     try {
       thread_1.join();
       thread_2.join();
-      thread_3.start();
       thread_3.join();
     } catch (InterruptedException e) {
       throw new RuntimeException(e);
